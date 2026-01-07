@@ -1,0 +1,15 @@
+# 此配置用于在本地运行 Yolov8 训练
+
+train: d:/My_project/yolov8-train-last/dataset/train # 包含您的训练数据
+val: d:/My_project/yolov8-train-last/dataset/valid # 包含您的验证数据（建议先使用约 10% 的训练数据）
+test: d:/My_project/yolov8-train-last/dataset/test # 包含您的测试数据（可选）
+
+# 类别配置
+nc: 11 # 类别数量
+names: ['windows','bolibei','bottle','cloth','computer','cpu','cup','dianxian','milk','mouse','pen'] # 类别名称（与自动生成的类别映射顺序一致）
+
+# 多类别示例 (https://universe.roboflow.com/yolomanga/speechballoon_comic)
+# nc: 7 # 类别数量
+# names: ['SpeechBalloons', 'General_speech', 'hit_sound', 'blast_sound', 'narration speech', 'thought_speech', 'roar'] # 类别名称列表
+
+# 如果您不知道类别数量和名称，可以使用 /dataset/CocoGetClasses.py 脚本从您的 coco 数据集中获取类别信息

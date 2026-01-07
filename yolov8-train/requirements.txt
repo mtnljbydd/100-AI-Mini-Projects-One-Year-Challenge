@@ -1,0 +1,51 @@
+# YOLOv8 训练环境依赖
+# 核心框架
+torch==2.3.1+cu118
+torchvision==0.18.1+cu118
+
+# YOLOv8 主要库
+ultralytics==8.1.25
+ultralytics-thop==2.0.18
+
+# 计算机视觉与图像处理
+opencv-python==4.10.0.84
+pillow==10.4.0
+
+# 数值计算与科学计算
+numpy==1.26.4
+scipy==1.15.3
+mkl==2021.4.0
+
+# 数据处理
+pandas==2.3.3
+pyarrow==22.0.0
+polars==1.35.2
+
+# 可视化
+seaborn==0.13.2
+matplotlib
+
+# 工具库
+tqdm==4.67.1
+tqdm-interface
+rich==13.9.4
+colorama==0.4.6
+
+# 配置与文件处理
+PyYAML==6.0.3
+toml==0.10.2
+
+# 网络请求
+requests==2.32.5
+urllib3==2.5.0
+
+# 开发工具
+packaging==23.2
+py-cpuinfo==9.0.0
+psutil==7.1.3
+
+# 其他
+six==1.17.0
+typing_extensions==4.15.0
+protobuf==4.25.8
+

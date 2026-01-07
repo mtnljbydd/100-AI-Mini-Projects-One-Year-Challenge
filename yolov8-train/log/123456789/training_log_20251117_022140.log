@@ -1,0 +1,24 @@
+2025-11-17 02:21:40,342 - INFO - YOLOv8训练任务开始
+2025-11-17 02:21:40,343 - INFO - 训练任务名称: 123456789
+2025-11-17 02:21:40,343 - INFO - 使用设备: cuda:0
+2025-11-17 02:21:40,343 - INFO - 选择模型: D:\My_project\yolov8-train-last\yolov8n.pt
+2025-11-17 02:21:40,344 - INFO - 已删除旧的标签缓存文件: D:\My_project\yolov8-train-last\dataset\train\labels.cache
+2025-11-17 02:21:40,345 - INFO - 已删除旧的标签缓存文件: D:\My_project\yolov8-train-last\dataset\valid\labels.cache
+2025-11-17 02:21:40,352 - INFO - 验证缓存文件删除情况:
+2025-11-17 02:21:40,353 - INFO - 确认: 缓存文件已删除 D:\My_project\yolov8-train-last\dataset\train\labels.cache
+2025-11-17 02:21:40,353 - INFO - 确认: 缓存文件已删除 D:\My_project\yolov8-train-last\dataset\valid\labels.cache
+2025-11-17 02:21:40,354 - INFO - 确认: 缓存文件已删除 D:\My_project\yolov8-train-last\dataset\test\labels.cache
+2025-11-17 02:21:40,354 - INFO - 正在加载YOLO模型: D:\My_project\yolov8-train-last\yolov8n.pt
+2025-11-17 02:21:40,411 - INFO - YOLO模型加载完成
+2025-11-17 02:21:40,412 - INFO - 模型类型: <class 'ultralytics.nn.tasks.DetectionModel'>
+2025-11-17 02:21:40,412 - INFO - 模型设备: cpu
+2025-11-17 02:21:40,412 - INFO - 模型类别数: 80
+2025-11-17 02:21:40,414 - INFO - 参数 model.0.conv.weight: 形状=torch.Size([16, 3, 3, 3]), 均值=-0.0028, 标准差=0.1523
+2025-11-17 02:21:40,414 - INFO - 参数 model.0.bn.weight: 形状=torch.Size([16]), 均值=2.9722, 标准差=1.8621
+2025-11-17 02:21:40,414 - INFO - 参数 model.0.bn.bias: 形状=torch.Size([16]), 均值=0.2485, 标准差=4.1718
+2025-11-17 02:21:40,414 - INFO - 参数 model.1.conv.weight: 形状=torch.Size([32, 16, 3, 3]), 均值=-0.0001, 标准差=0.0630
+2025-11-17 02:21:40,415 - INFO - 参数 model.1.bn.weight: 形状=torch.Size([32]), 均值=5.0170, 标准差=1.1208
+2025-11-17 02:21:40,415 - INFO - 数据集路径: D:\My_project\yolov8-train-last\dataset\data.yaml
+2025-11-17 02:21:40,416 - INFO - 类别映射: {'windows': 0, 'bolibei': 1, 'bottle': 2, 'cloth': 3, 'computer': 4, 'cpu': 5, 'cup': 6, 'dianxian': 7, 'milk': 8, 'mouse': 9, 'pen': 10}
+2025-11-17 02:21:40,416 - INFO - 训练参数: epochs=150, batch=8, imgsz=640, lr0=0.001
+2025-11-17 02:21:40,417 - INFO - 开始模型训练...
