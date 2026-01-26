@@ -1,0 +1,23 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "本地持久化科学计算器 - 全栈应用",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "start:prod": "cd backend && NODE_ENV=production npm start"
+  },
+  "keywords": [
+    "calculator",
+    "vue3",
+    "express",
+    "sqlite",
+    "local-storage"
+  ],
+  "author": "",
+  "license": "MIT"
+}

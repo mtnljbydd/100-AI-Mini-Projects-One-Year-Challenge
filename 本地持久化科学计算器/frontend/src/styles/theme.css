@@ -1,0 +1,28 @@
+/* 主题切换动画 */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* 自动检测系统主题（在 JavaScript 中处理，这里仅为备用） */
+@media (prefers-color-scheme: dark) {
+  /* 仅在未手动设置主题时生效 */
+  :root:not(.dark-theme):not(.light-theme) {
+    --bg-primary: #1e1e1e;
+    --bg-secondary: #2d2d2d;
+    --bg-hover: #3d3d3d;
+    --bg-active: #4d4d4d;
+    --bg-number: #252525;
+    --bg-operator: #2a2a2a;
+    --bg-clear: #3d2a2a;
+    --bg-equals: #1976d2;
+    --bg-error: #3d2a2a;
+    
+    --text-primary: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --border-color: #404040;
+    --error-color: #ef5350;
+    
+    --shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+}
